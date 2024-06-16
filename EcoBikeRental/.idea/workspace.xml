@@ -5,123 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae0af981-97e6-49f1-954d-0ce77d2ffe76" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/hamcrest-core-1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-platform-console-standalone-1.7.0-M1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/mysql-connector-j-8.0.31.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/business_layer/PayDeposite_BL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/business_layer/RentBike_BL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/business_layer/ReturnBike_BL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/business_layer/View_BL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/exception/CapstoneException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/exception/InternalServerErrorException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/exception/InvalidCardException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/exception/InvalidTransactionAmountException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/exception/InvalidVersionException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/exception/NotEnoughBalanceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/exception/NotEnoughTransactionInfoException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/exception/PaymentException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/exception/SuspiciousTransactionException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/BaseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/RentBikeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/ReturnBikeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/ViewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_access_layer/bike/Bike_DAL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_access_layer/bikeType/BikeType_DAL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_access_layer/database/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_access_layer/dock/Dock_DAL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_access_layer/transaction/Transaction_DAL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entity/bike/Bike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entity/bike/BikeRentInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entity/bike/BikeType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entity/bike/StandardBike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entity/bike/StandardEBike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entity/bike/TwinBike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entity/card/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entity/dock/Dock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entity/dock/DockBikeList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entity/dock/DockList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entity/transaction/Transaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/provide/factory/BikeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/provide/factory/BikeGenerate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/provide/factory/StandardBikeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/provide/factory/StandardEBikeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/provide/factory/TwinBikeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/provide/strategy/PaymentAmountStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/provide/strategy/PaymentMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/provide/strategy/PaymentStrategyCreate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/provide/strategy/implement_strategy/PaymentAmountVer1Strategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/provide/strategy/implement_strategy/PaymentAmountVer2Strategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/request_layer/BaseRequestLayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/request_layer/Card_RL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/request_layer/RentBike_RL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/request_layer/ReturnBike_RL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/request_layer/View_RL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/subsystem/InterbankInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/subsystem/InterbankSubsystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/subsystem/interbank/InterbankBoundary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/subsystem/interbank/InterbankSubsystemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/subsystem/interbank/TransactionProcess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utlis/Configs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utlis/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utlis/Helper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/BaseScreenHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/FXMLScreenHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/SplashScreenHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/fxml/BikeDetailScreen.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/fxml/BikeRentDataScreen.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/fxml/DockDetailScreen.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/fxml/HomeScreen.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/fxml/InsertCardScreen.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/fxml/LoadingScreen.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/fxml/NotEnoughAmount.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/fxml/PaymentTransactionScreen.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/fxml/RentBikeInfoScreen.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/fxml/RentBikeScreen.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/fxml/ReturnBikeDockCompScreen.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/fxml/ReturnBikeDockInfoScreen.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/fxml/ReturnBikeDockListScreen.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/fxml/ReturnBikeInfoScreen.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/fxml/ViewDockBikeCompHandler.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/fxml/ViewDockCompHandler.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/fxml/WrongInformation.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/fxml/image/back.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/fxml/image/bike.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/fxml/image/eco-park.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/fxml/image/error.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/fxml/image/home.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/fxml/image/hong.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/fxml/image/image0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/fxml/image/loading.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/fxml/image/search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/fxml/image/station.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/fxml/image/station.ppm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/fxml/image/station.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/fxml/image/x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/fxml/image/xd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/fxml/image/xdd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/fxml/image/xddoi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/fxml/image/xddoi.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/handler/payment/InsertCardScreenHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/handler/payment/PaymentTransactionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/handler/rentbike/BikeRentDataHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/handler/rentbike/RentBikeInfoHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/handler/returnbike/ReturnBikeDockCompHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/handler/returnbike/ReturnBikeDockInfoHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/handler/returnbike/ReturnBikeDockListHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/handler/returnbike/ReturnBikeInfoHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/handler/view/HomeScreenHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/handler/view/ViewDockBikeInfoCompHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/handler/view/ViewDockBikeInfoHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/handler/view/ViewDockCompHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/handler/view/ViewDockInfoHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Architectural Design/Analysis Classes/Analysis.asta" beforeDir="false" afterPath="$PROJECT_DIR$/../Architectural Design/Analysis Classes/Analysis.asta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Architectural Design/Design Classes/General Diagram.asta.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ecobikerental/HelloApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ecobikerental/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ecobikerental/hello-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,27 +35,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Application.App.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;topic/architecture&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/void-keishi/Code/javafx-sdk-22.0.1/lib&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.App.executor": "Run",
+    "Application.HelloApplication.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/void-keishi/Code/javafx-sdk-22.0.1/lib",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -232,7 +118,9 @@
       <workItem from="1718547744268" duration="515000" />
       <workItem from="1718548589101" duration="7211000" />
       <workItem from="1718556289691" duration="1868000" />
-      <workItem from="1718558277133" duration="2013000" />
+      <workItem from="1718558277133" duration="2815000" />
+      <workItem from="1718561384641" duration="92000" />
+      <workItem from="1718561480589" duration="152000" />
     </task>
     <servers />
   </component>
