@@ -45,21 +45,34 @@ CREATE TABLE `bike` (
 LOCK TABLES `bike` WRITE;
 /*!40000 ALTER TABLE `bike` DISABLE KEYS */;
 INSERT INTO `bike` VALUES 
-(1,300000,0,'dasd213','https://th.bing.com/th/id/OIP.i0dGRzUqa33uB-_67OtirQHaD2?w=307&h=180&c=7&r=0&o=5&dpr=1.6&pid=1.7&fbclid=IwAR3JvkXtPbxF4hbGSK6N_aNbJhd9MIdLoLCmeIdvLihvOgQbh_x1sUaIbaQ','HEDSPI',3,1),
-(2,400000,0,'ads1234','https://th.bing.com/th/id/OIP.ZTW5Xt5f8tTeCuUn9-7e4QHaE7?w=292&h=194&c=7&r=0&o=5&dpr=1.6&pid=1.7&fbclid=IwAR03iNRWTwc7TJuid6Tyngt57loMjVK58kOg5S10gYVpttyn4hTt3UAx7ik','HEDSPI',2,2),
-(3,400000,0,'fdsg','https://th.bing.com/th/id/OIP.NbDC4NbkTqXtpby7VHXyWgHaFM?w=257&h=180&c=7&r=0&o=5&dpr=1.6&pid=1.7&fbclid=IwAR1OFv8dyRf7vSpOeZ64fLAGnxEDexOKdC_WqkJYszvt63kosURiIthNIuw','HEDSPI',1,3),
-(4,400000,0,'gsd1243','https://th.bing.com/th/id/OIP.i0dGRzUqa33uB-_67OtirQHaD2?w=307&h=180&c=7&r=0&o=5&dpr=1.6&pid=1.7&fbclid=IwAR3JvkXtPbxF4hbGSK6N_aNbJhd9MIdLoLCmeIdvLihvOgQbh_x1sUaIbaQ','HEDSPI',3,1),
-(5,400000,1,'234esfr','https://th.bing.com/th/id/OIP.ZTW5Xt5f8tTeCuUn9-7e4QHaE7?w=292&h=194&c=7&r=0&o=5&dpr=1.6&pid=1.7&fbclid=IwAR03iNRWTwc7TJuid6Tyngt57loMjVK58kOg5S10gYVpttyn4hTt3UAx7ik','HEDSPI',2,2),
-(6,400000,0,'wdst6','https://th.bing.com/th/id/OIP.NbDC4NbkTqXtpby7VHXyWgHaFM?w=257&h=180&c=7&r=0&o=5&dpr=1.6&pid=1.7&fbclid=IwAR1OFv8dyRf7vSpOeZ64fLAGnxEDexOKdC_WqkJYszvt63kosURiIthNIuw','HEDSPI',1,3),
-(7,400000,0,'346egsdf','https://th.bing.com/th/id/OIP.i0dGRzUqa33uB-_67OtirQHaD2?w=307&h=180&c=7&r=0&o=5&dpr=1.6&pid=1.7&fbclid=IwAR3JvkXtPbxF4hbGSK6N_aNbJhd9MIdLoLCmeIdvLihvOgQbh_x1sUaIbaQ','HEDSPI',3,1),
-(8,400000,0,'sdgety456','https://th.bing.com/th/id/OIP.ZTW5Xt5f8tTeCuUn9-7e4QHaE7?w=292&h=194&c=7&r=0&o=5&dpr=1.6&pid=1.7&fbclid=IwAR03iNRWTwc7TJuid6Tyngt57loMjVK58kOg5S10gYVpttyn4hTt3UAx7ik','HEDSPI',2,2),
-(9,400000,0,'65623fdsfwr','https://th.bing.com/th/id/OIP.NbDC4NbkTqXtpby7VHXyWgHaFM?w=257&h=180&c=7&r=0&o=5&dpr=1.6&pid=1.7&fbclid=IwAR1OFv8dyRf7vSpOeZ64fLAGnxEDexOKdC_WqkJYszvt63kosURiIthNIuw','HEDSPI',1,3),
-(10,400000,0,'fd23r32','https://th.bing.com/th/id/OIP.i0dGRzUqa33uB-_67OtirQHaD2?w=307&h=180&c=7&r=0&o=5&dpr=1.6&pid=1.7&fbclid=IwAR3JvkXtPbxF4hbGSK6N_aNbJhd9MIdLoLCmeIdvLihvOgQbh_x1sUaIbaQ','HEDSPI',3,1),
-(11,400000,0,'f432ff','https://th.bing.com/th/id/OIP.ZTW5Xt5f8tTeCuUn9-7e4QHaE7?w=292&h=194&c=7&r=0&o=5&dpr=1.6&pid=1.7&fbclid=IwAR03iNRWTwc7TJuid6Tyngt57loMjVK58kOg5S10gYVpttyn4hTt3UAx7ik','HEDSPI',2,2),
-(12,400000,0,'fwef2','https://th.bing.com/th/id/OIP.NbDC4NbkTqXtpby7VHXyWgHaFM?w=257&h=180&c=7&r=0&o=5&dpr=1.6&pid=1.7&fbclid=IwAR1OFv8dyRf7vSpOeZ64fLAGnxEDexOKdC_WqkJYszvt63kosURiIthNIuw','HEDSPI',1,3),
-(13,400000,0,'fewr','https://th.bing.com/th/id/OIP.i0dGRzUqa33uB-_67OtirQHaD2?w=307&h=180&c=7&r=0&o=5&dpr=1.6&pid=1.7&fbclid=IwAR3JvkXtPbxF4hbGSK6N_aNbJhd9MIdLoLCmeIdvLihvOgQbh_x1sUaIbaQ','HEDSPI',3,1),
-(14,400000,0,'23s','https://th.bing.com/th/id/OIP.ZTW5Xt5f8tTeCuUn9-7e4QHaE7?w=292&h=194&c=7&r=0&o=5&dpr=1.6&pid=1.7&fbclid=IwAR03iNRWTwc7TJuid6Tyngt57loMjVK58kOg5S10gYVpttyn4hTt3UAx7ik','HEDSPI',2,2),
-(15,400000,0,'fsdg4','https://th.bing.com/th/id/OIP.NbDC4NbkTqXtpby7VHXyWgHaFM?w=257&h=180&c=7&r=0&o=5&dpr=1.6&pid=1.7&fbclid=IwAR1OFv8dyRf7vSpOeZ64fLAGnxEDexOKdC_WqkJYszvt63kosURiIthNIuw','HEDSPI',1,3);
+
+(1, 300000, 0, 'dasd213', 'https://th.bing.com/th/id/OIP.i0dGRzUqa33uB-_67OtirQHaD2?w=307&h=180&c=7&r=0&o=5&dpr=1.6&pid=1.7&fbclid=IwAR3JvkXtPbxF4hbGSK6N_aNbJhd9MIdLoLCmeIdvLihvOgQbh_x1sUaIbaQ', 'Tesla', 3, 1),
+(2, 400000, 0, 'ads1234', 'https://th.bing.com/th/id/OIP.ZTW5Xt5f8tTeCuUn9-7e4QHaE7?w=292&h=194&c=7&r=0&o=5&dpr=1.6&pid=1.7&fbclid=IwAR03iNRWTwc7TJuid6Tyngt57loMjVK58kOg5S10gYVpttyn4hTt3UAx7ik', 'Nissan', 2, 2),
+(3, 400000, 0, 'fdsg', 'https://th.bing.com/th/id/OIP.NbDC4NbkTqXtpby7VHXyWgHaFM?w=257&h=180&c=7&r=0&o=5&dpr=1.6&pid=1.7&fbclid=IwAR1OFv8dyRf7vSpOeZ64fLAGnxEDexOKdC_WqkJYszvt63kosURiIthNIuw', 'Ford', 1, 3),
+(4, 400000, 0, 'gsd1243', 'https://th.bing.com/th/id/OIP.i0dGRzUqa33uB-_67OtirQHaD2?w=307&h=180&c=7&r=0&o=5&dpr=1.6&pid=1.7&fbclid=IwAR3JvkXtPbxF4hbGSK6N_aNbJhd9MIdLoLCmeIdvLihvOgQbh_x1sUaIbaQ', 'Tesla', 3, 1),
+(5, 400000, 1, '234esfr', 'https://th.bing.com/th/id/OIP.ZTW5Xt5f8tTeCuUn9-7e4QHaE7?w=292&h=194&c=7&r=0&o=5&dpr=1.6&pid=1.7&fbclid=IwAR03iNRWTwc7TJuid6Tyngt57loMjVK58kOg5S10gYVpttyn4hTt3UAx7ik', 'Nissan', 2, 2),
+(6, 400000, 0, 'wdst6', 'https://th.bing.com/th/id/OIP.NbDC4NbkTqXtpby7VHXyWgHaFM?w=257&h=180&c=7&r=0&o=5&dpr=1.6&pid=1.7&fbclid=IwAR1OFv8dyRf7vSpOeZ64fLAGnxEDexOKdC_WqkJYszvt63kosURiIthNIuw', 'Ford', 1, 3),
+(7, 400000, 0, '346egsdf', 'https://th.bing.com/th/id/OIP.i0dGRzUqa33uB-_67OtirQHaD2?w=307&h=180&c=7&r=0&o=5&dpr=1.6&pid=1.7&fbclid=IwAR3JvkXtPbxF4hbGSK6N_aNbJhd9MIdLoLCmeIdvLihvOgQbh_x1sUaIbaQ', 'Tesla', 3, 1),
+(8, 400000, 0, 'sdgety456', 'https://th.bing.com/th/id/OIP.ZTW5Xt5f8tTeCuUn9-7e4QHaE7?w=292&h=194&c=7&r=0&o=5&dpr=1.6&pid=1.7&fbclid=IwAR03iNRWTwc7TJuid6Tyngt57loMjVK58kOg5S10gYVpttyn4hTt3UAx7ik', 'Nissan', 2, 2),
+(9, 400000, 0, '65623fdsfwr', 'https://th.bing.com/th/id/OIP.NbDC4NbkTqXtpby7VHXyWgHaFM?w=257&h=180&c=7&r=0&o=5&dpr=1.6&pid=1.7&fbclid=IwAR1OFv8dyRf7vSpOeZ64fLAGnxEDexOKdC_WqkJYszvt63kosURiIthNIuw', 'Ford', 1, 3),
+(10, 400000, 0, 'fd23r32', 'https://th.bing.com/th/id/OIP.i0dGRzUqa33uB-_67OtirQHaD2?w=307&h=180&c=7&r=0&o=5&dpr=1.6&pid=1.7&fbclid=IwAR3JvkXtPbxF4hbGSK6N_aNbJhd9MIdLoLCmeIdvLihvOgQbh_x1sUaIbaQ', 'Tesla', 3, 1),
+(11, 400000, 0, 'f432ff', 'https://th.bing.com/th/id/OIP.ZTW5Xt5f8tTeCuUn9-7e4QHaE7?w=292&h=194&c=7&r=0&o=5&dpr=1.6&pid=1.7&fbclid=IwAR03iNRWTwc7TJuid6Tyngt57loMjVK58kOg5S10gYVpttyn4hTt3UAx7ik', 'Nissan', 2, 2),
+(12, 400000, 0, 'fwef2', 'https://th.bing.com/th/id/OIP.NbDC4NbkTqXtpby7VHXyWgHaFM?w=257&h=180&c=7&r=0&o=5&dpr=1.6&pid=1.7&fbclid=IwAR1OFv8dyRf7vSpOeZ64fLAGnxEDexOKdC_WqkJYszvt63kosURiIthNIuw', 'Ford', 1, 3),
+(13, 400000, 0, 'fewr', 'https://th.bing.com/th/id/OIP.i0dGRzUqa33uB-_67OtirQHaD2?w=307&h=180&c=7&r=0&o=5&dpr=1.6&pid=1.7&fbclid=IwAR3JvkXtPbxF4hbGSK6N_aNbJhd9MIdLoLCmeIdvLihvOgQbh_x1sUaIbaQ', 'Tesla', 3, 1),
+(14, 400000, 0, '23s', 'https://th.bing.com/th/id/OIP.ZTW5Xt5f8tTeCuUn9-7e4QHaE7?w=292&h=194&c=7&r=0&o=5&dpr=1.6&pid=1.7&fbclid=IwAR03iNRWTwc7TJuid6Tyngt57loMjVK58kOg5S10gYVpttyn4hTt3UAx7ik', 'Nissan', 2, 2);
+(15,400000,0,'fsdg4','https://th.bing.com/th/id/OIP.NbDC4NbkTqXtpby7VHXyWgHaFM?w=257&h=180&c=7&r=0&o=5&dpr=1.6&pid=1.7&fbclid=IwAR1OFv8dyRf7vSpOeZ64fLAGnxEDexOKdC_WqkJYszvt63kosURiIthNIuw','Nissa',1,3);
+(16,400000,0,'abc12','https://th.bing.com/th/id/OIP.ZTW5Xt5f8tTeCuUn9-7e4QHaE7?w=292&h=194&c=7&r=0&o=5&dpr=1.6&pid=1.7&fbclid=IwAR03iNRWTwc7TJuid6Tyngt57loMjVK58kOg5S10gYVpttyn4hTt3UAx7ik','Vinfast',2,4),
+(17,400000,0,'hda1','https://th.bing.com/th/id/OIP.NbDC4NbkTqXtpby7VHXyWgHaFM?w=257&h=180&c=7&r=0&o=5&dpr=1.6&pid=1.7&fbclid=IwAR1OFv8dyRf7vSpOeZ64fLAGnxEDexOKdC_WqkJYszvt63kosURiIthNIuw','Vinfast',1,4);
+(18,400000,0,'323a','https://th.bing.com/th/id/OIP.ZTW5Xt5f8tTeCuUn9-7e4QHaE7?w=292&h=194&c=7&r=0&o=5&dpr=1.6&pid=1.7&fbclid=IwAR03iNRWTwc7TJuid6Tyngt57loMjVK58kOg5S10gYVpttyn4hTt3UAx7ik','Nissa',2,5),
+(19,400000,0,'fad1','https://th.bing.com/th/id/OIP.NbDC4NbkTqXtpby7VHXyWgHaFM?w=257&h=180&c=7&r=0&o=5&dpr=1.6&pid=1.7&fbclid=IwAR1OFv8dyRf7vSpOeZ64fLAGnxEDexOKdC_WqkJYszvt63kosURiIthNIuw','Vinfast',1,5);
+(20,400000,0,'jajd1','https://th.bing.com/th/id/OIP.ZTW5Xt5f8tTeCuUn9-7e4QHaE7?w=292&h=194&c=7&r=0&o=5&dpr=1.6&pid=1.7&fbclid=IwAR03iNRWTwc7TJuid6Tyngt57loMjVK58kOg5S10gYVpttyn4hTt3UAx7ik','Vinfast',2,3),
+(21,400000,0,'faf2','https://th.bing.com/th/id/OIP.NbDC4NbkTqXtpby7VHXyWgHaFM?w=257&h=180&c=7&r=0&o=5&dpr=1.6&pid=1.7&fbclid=IwAR1OFv8dyRf7vSpOeZ64fLAGnxEDexOKdC_WqkJYszvt63kosURiIthNIuw','Vinfast',1,3);
+(22,400000,0,'jkha1','https://th.bing.com/th/id/OIP.ZTW5Xt5f8tTeCuUn9-7e4QHaE7?w=292&h=194&c=7&r=0&o=5&dpr=1.6&pid=1.7&fbclid=IwAR03iNRWTwc7TJuid6Tyngt57loMjVK58kOg5S10gYVpttyn4hTt3UAx7ik','Nissa',2,2),
+(23,400000,0,'kqj1','https://th.bing.com/th/id/OIP.NbDC4NbkTqXtpby7VHXyWgHaFM?w=257&h=180&c=7&r=0&o=5&dpr=1.6&pid=1.7&fbclid=IwAR1OFv8dyRf7vSpOeZ64fLAGnxEDexOKdC_WqkJYszvt63kosURiIthNIuw','Vinfast',1,3);
+
+
+
+
 /*!40000 ALTER TABLE `bike` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -112,9 +125,14 @@ CREATE TABLE `dock` (
 LOCK TABLES `dock` WRITE;
 /*!40000 ALTER TABLE `dock` DISABLE KEYS */;
 INSERT INTO `dock` VALUES 
-(1,'LANG HA',2000,'Lang Ha, Ha Noi','https://upload.wikimedia.org/wikipedia/commons/d/da/Ph%E1%BB%91_L%C3%A1ng_H%E1%BA%A1%2C_H%C3%A0_N%E1%BB%99i.JPG'),
-(2,'TRAN DAI NGHIA',3000,'Tran Dai Nghia, Ha Noi','https://th.bing.com/th/id/OIP.DfcFX9B00Y6I5Uw9Ckx5TQHaE8?w=288&h=192&c=7&r=0&o=5&dpr=1.6&pid=1.7&fbclid=IwAR0_LME57QWeJYPn1wvs_yI5lQd3PdnlZSUpy6ElbS3rl7-WbduUkpNl8rw'),
-(3,'DAI LA',5000,'Dai La, Ha Noi','https://th.bing.com/th/id/OIP.DfcFX9B00Y6I5Uw9Ckx5TQHaE8?w=288&h=192&c=7&r=0&o=5&dpr=1.6&pid=1.7&fbclid=IwAR0_LME57QWeJYPn1wvs_yI5lQd3PdnlZSUpy6ElbS3rl7-WbduUkpNl8rw');
+
+
+(1,'LANG HA',2000,'Lang Ha, Ha Noi','https://img.dothi.net/resize/624x476/2021/10/11/20211011122413-10c5_wm.jpg'),
+(2,'TRAN DAI NGHIA',3000,'Tran Dai Nghia, Ha Noi','https://cafefcdn.com/203337114487263232/2023/2/1/photo-19-16752252227081859254948.jpg'),
+(3,'DAI LA',5000,'Dai La, Ha Noi','https://media-cdn-v2.laodong.vn/Storage/NewsPortal/2021/6/26/924485/Vanh-Dai-2-01.jpg');
+(4,'DAI CO VIET',6000,'Dai Co Viet, Ha Noi','https://tinbds.com/images/place/0/dm3.jpg');
+(5,'MINH KHAI',7000,'Minh Khai, Ha Noi','https://hnm.1cdn.vn/2020/04/17/nhipsonghanoi.hanoimoi.com.vn-uploads-images-tuandiep-2020-04-16-_pho-minh-khai.jpg');
+
 /*!40000 ALTER TABLE `dock` ENABLE KEYS */;
 UNLOCK TABLES;
 
