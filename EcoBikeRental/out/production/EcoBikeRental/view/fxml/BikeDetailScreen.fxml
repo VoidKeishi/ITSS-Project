@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Line endX="-1.220703143189894E-5" endY="104.50000762939453" layoutY="-11.0" startX="1365.9998779296875" startY="104.4999771118164" />
+      <Line endX="101.49998474121094" endY="-1.5258789289873675E-6" startX="101.49998474121094" startY="93.00000762939453" />
+      <Line endX="193.49998474121094" endY="-3.43322744811303E-6" layoutX="8.0" startX="193.49998474121094" startY="92.79290008544922" />
+      <ImageView fx:id="logo" fitHeight="43.0" fitWidth="69.0" layoutX="16.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/bike.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="home" fitHeight="53.0" fitWidth="61.0" layoutX="124.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/home.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="homeLabel" layoutX="128.0" layoutY="61.0" prefHeight="17.0" prefWidth="51.0" text="Home" textAlignment="CENTER">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Label>
+      <Line endX="-30.17376708984375" endY="620.5000610351562" layoutX="450.0" layoutY="169.0" startX="-30.17376708984375" startY="-74.79287719726562" />
+      <Label layoutX="502.0" layoutY="7.0" text="Bike's Infomation">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+      <Label layoutX="30.0" layoutY="123.0" text="Loại xe: ">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="typeBike" layoutX="231.0" layoutY="123.0" text="Xe điện ">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="30.0" layoutY="223.0" text="Hãng: ">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="brandBike" layoutX="231.0" layoutY="223.0" text="Ninja">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="batteryLabel" layoutX="30.0" layoutY="523.0" text="Pin: ">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="battery" layoutX="231.0" layoutY="523.0" text="60%">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="30.0" layoutY="323.0" text="Biển số: ">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="licensePlates" layoutX="231.0" layoutY="323.0" text="12AA456">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="30.0" layoutY="423.0" text="Tiền cọc:  ">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="deposit" layoutX="231.0" layoutY="423.0" text="400,000VND">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="image" fitHeight="622.0" fitWidth="674.0" layoutX="577.0" layoutY="123.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/xdd.jpg" />
+         </image>
+      </ImageView>
+      <Pane layoutX="1148.0" layoutY="22.0" prefHeight="64.0" prefWidth="204.0">
+         <children>
+            <Button fx:id="returnButton" layoutX="68.0" layoutY="2.0" mnemonicParsing="false" onMouseClicked="#handleReturn">
+               <graphic>
+                  <ImageView fitHeight="70.0" fitWidth="52.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@image/back.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
